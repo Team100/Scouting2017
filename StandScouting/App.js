@@ -61,7 +61,7 @@ class HomeScreen extends React.Component {
   }
 }
 
-class Scouting extends React.Component {
+class StandScouting extends React.Component {
   render(){
     return(
       <Tabs style={styles.tabs}/>
@@ -99,4 +99,4 @@ const styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('Scouting', () => Scouting);
+AppRegistry.registerComponent('StandScouting', () => StandScouting);
